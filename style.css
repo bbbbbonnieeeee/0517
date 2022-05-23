@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body{
+	font-family: 'Noto Serif TC', serif;
+}
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.title h1 {
+    margin-left: 22px;
+    font-size: 30px;
+}
+.menu a:link    {
+    text-decoration: none;
+    color: #000000;
+}
+.menu a:hover {
+    color: #FF0000;
+    font-weight: 900;
+    font-size: medium;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(0511-2.jpg);
+    background-size: cover;
+    background-position: 0% center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header h1 {
+    font-size: 60px;
+    margin-right: 99px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.image {
+    margin-top: 10px;
+    background-image: url(0308-1.jpg);
+    height: 380px;
+    flex: 1;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-position: 43% 0%;
+    background-size: cover;
+    margin-left: 5px;
+}
+
+main h3 {
+    font-size: x-large;
+    font-weight: 900;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+main h2 {
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.information {
+    text-align: left;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    text-align: center;
+    background-color: #DADADA;
+    width: 100%;
+}
+
+.experience {
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000000;
+}
+.container2 {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    color: #FBFBFB;
+    line-height: 21px;
+}
+.angelimg {
+    background-image: url(0316-3.png);
+    background-position: center center;
+    background-size: contain;
+    height: 31px;
+}
+.film {
+    width: 0%;
+    flex: 1;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.container0 {
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
